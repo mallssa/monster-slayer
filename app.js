@@ -91,6 +91,7 @@ new Vue({
         },
         startGame: function () {
             this.isOn = !this.isOn;
+            this.attacks = [];
             this.monsterLife = 100;
             this.humanLife = 100;
         }
